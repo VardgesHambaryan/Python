@@ -1,3 +1,37 @@
-print('Hello world')
-print('I am from git')
-print('i am from VS code')
+def IsPrime(number):
+    for i in range(2 , number // 2 + 1):
+        if number % i == 0:
+            return False
+    else:
+        return True
+
+print(IsPrime(7))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
