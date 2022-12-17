@@ -5,7 +5,6 @@ def IsPrime(number):
     else:
         return True
 
-print(IsPrime(7))
 
 
 
